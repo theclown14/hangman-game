@@ -1,9 +1,9 @@
 <script setup lang="ts">
-import GameFigure from './components/GameFigure.vue';
-import GameWrongLetters from './components/GameWrongLetters.vue';
-import GameWord from './components/GameWord.vue';
-import GamePopup from './components/GamePopup.vue';
-import GameNotification from './components/GameNotification.vue';
+import GameFigure from '@/components/GameFigure.vue';
+import GameWrongLetters from '@/components/GameWrongLetters.vue';
+import GameWord from '@/components/GameWord.vue';
+import GamePopup from '@/components/GamePopup.vue';
+import GameNotification from '@/components/GameNotification.vue';
 
 import { useRandomWord } from './composables/useRandomWord';
 import { useLetters } from './composables/useLetters';
