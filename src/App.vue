@@ -50,7 +50,7 @@ window.addEventListener('keydown', ({ key }) => {
 <template>
     <div id="app">
         <h1>Виселица</h1>
-        <p>Отгадайте имя - введите букву</p>
+        <p>Отгадайте имя - введите русскую букву</p>
         <div class="game-container">
             <GameFigure :wrong-letters-count="wrongLetters.length" />
             <GameWrongLetters :wrong-letters="wrongLetters" />
